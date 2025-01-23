@@ -54,3 +54,61 @@
     padding: 18px 22px;
     color: #fff;
 }
+.stories {
+    background: url('B11-A2-Kids-School/assets/bg.png') center center/cover;
+}
+.stories-store {
+    display: flex;
+    gap: 25px;
+    width: 80%;
+    margin: auto;
+}
+.toddler-contain {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.main-store- {
+
+}
+.card-btn {
+    font-family: "Macondo", serif;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 12px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: #01ACFD;
+    color: #fff;
+    position: relative;
+    top: -25px;
+    left: 40px;
+    font-weight: 500;
+}
+.toddler-item {
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+/*  */
+.toddle-img {
+    width: 100%;
+}
+.toddle-img img {
+    width: 100%;
+    border-radius: 15px;
+}
+.green-cl {
+    background-color: #95B226;
+}
+.blue-cl {
+    background-color: #5D58F0;
+}
+
+
+
+@media screen and (max-width: 150px) {
+    .stories-store {
+        display: block;
+        
+    }
+}
