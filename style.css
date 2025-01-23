@@ -1,0 +1,145 @@
+
+* {
+    padding: 0;margin: 0;box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex {
+    display: flex;
+}
+.flex-none {
+    display: none;
+}
+.justify {
+    justify-content: center;
+    align-items: center;
+}
+.navbar-header {
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid orange;
+}
+.brand {
+    gap: 10px;
+}
+.navbar {
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.list-manu {
+    list-style: none;
+}
+.list-manu li {
+    font-size: 22px;
+    padding: 20px;
+}
+.home {
+    color: yellow;
+}
+.about {
+    color: #01ACFD;
+}
+.facilities {
+    color: #05D4DF;
+}
+.admission {
+    color: #5D58EF;
+}
+.btn-primary {
+    border-radius: 8px;
+    border: none;
+    background-color: #FEA301;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 40px;
+    cursor: pointer;
+}
+.icons {
+    font-size: 35px;
+    display: none;
+}
+@media screen and (max-width: 1050px) {
+    .list-manu {
+        display: none;
+    }
+    .btn-primary {
+        display: none;
+    }
+    .icons {
+        display: block;
+        cursor: pointer;
+    }
+}
+/* empoweiing styling start */
+
+.empoweiing-header {
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 80%;
+    margin: 70px auto 0;
+}
+.empoweiing-header > div {
+    flex-basis: 50%;
+}
+.kids-deshbord {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.span-one {
+    color: #01ACFD;
+}
+.span-tow {
+    color: #FEA301
+}
+.kids-deshbord button {
+    align-self: flex-start;
+    padding: 15px 30px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: black;
+    transition: all .22s ease-in;
+    color: #fff;
+}
+.kids-deshbord button:hover {
+    padding: 12px 27px;
+}
+.empoweiing-header h1 {
+    font-size: 54px;
+    font-weight: bold;
+    font-family: "Raleway", serif;
+}
+.kids-deshbord_imgs {
+    width: 100%;
+    text-align: center;
+}
+.kids-deshbord_imgs img {
+    width: 80%;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .empoweiing-header {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .kids-deshbord {
+        gap: 15px;
+    }
+    .kids-deshbord button {
+        display: block;
+        align-self: center;
+        margin: 10px;
+    }
+}

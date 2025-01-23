@@ -1,0 +1,56 @@
+.section-card {
+    width: 80%;
+    margin: auto;
+}
+.section-card h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.card-contain {
+    display: flex;
+    gap: 30px;
+}
+.card-contain > div {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    padding: 30px;
+    
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.dinder {
+    box-shadow: inset 12px 20px 30px #01ACFD;
+}
+.elementary {
+
+}
+.middle {
+
+}
+@media screen and (max-width: 920px) {
+    .card-contain {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-contain > div {
+        width: 350px;
+    }
+}
+.icons-les-gat {
+    margin: 90px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    border-radius: 50px;
+    background-color: orange;
+    padding: 18px 22px;
+    color: #fff;
+}
