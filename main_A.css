@@ -161,7 +161,6 @@ footer {
 }
 /* style  style*/
 .footer-kids {
-
     margin-bottom: 40px;
     margin-right: 44px;
 }
@@ -172,7 +171,7 @@ footer {
     
 }
 .kids-img {
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     display: flex;
     gap: 10px;
 }
