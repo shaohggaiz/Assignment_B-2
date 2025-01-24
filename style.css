@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid orange;
+    
 }
 .brand {
     gap: 10px;
@@ -76,13 +76,16 @@
     }
 }
 /* empoweiing styling start */
-
+.empoweiing {
+    padding: 20px;
+}
 .empoweiing-header {
     justify-content: center;
     align-items: center;
     gap: 50px;
     width: 80%;
     margin: 70px auto 0;
+    
 }
 .empoweiing-header > div {
     flex-basis: 50%;
@@ -124,9 +127,24 @@
     text-align: center;
 }
 .kids-deshbord_imgs img {
-    width: 80%;
+    width: 70%;
+    padding: 20px;
 }
-
+#kinder {
+    color: #01ACFD;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+#school {
+    color: #FEA301;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+#years {
+    color: #5D58EF;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
 
 @media screen and (max-width: 1050px) {
     .empoweiing-header {
@@ -141,5 +159,8 @@
         display: block;
         align-self: center;
         margin: 10px;
+    }
+    .navbar-header {
+        border-bottom: 1px solid orange;
     }
 }
