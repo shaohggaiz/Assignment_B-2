@@ -161,7 +161,8 @@ footer {
 }
 /* style  style*/
 .footer-kids {
-    border: 3px solid black;
+
+    margin-bottom: 40px;
     margin-right: 44px;
 }
 .footer-content > * {
@@ -183,7 +184,6 @@ footer {
 
 }
 .list-item li {
-    justify-self: flex-start;
     list-style: none;
     padding: 15px 0;
     cursor: pointer;
@@ -197,13 +197,13 @@ footer {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     .footer-content {
         flex-direction: column;
     }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 850px) {
     .main-store- {
         display: none;
     }
